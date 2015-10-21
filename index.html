@@ -16,6 +16,7 @@
       background-image:url('Background Image');
       background-repeat:no-repeat;
     }
+	
     a  { color:#0000FF; }
     a:visited { color:#800080; }
     a:hover { color:#008000; }
@@ -26,12 +27,11 @@
 	}
 	
 	body > div {
-		 margin: 10px 100px 10px 100px;
+		 margin: 0 100px 0 100px;
 		 border: 0px solid black;
 	}
 	
 	div {
-		display: block-inline;
 		background-color: white;
 	}
 	
@@ -48,22 +48,34 @@
 	
 	#content {
 		width: 1680px;
-		margin: auto;	
+		margin: auto;
 	}
 	
 	#leftchat {
-		 position: relative;		
+		 position: relative;
+		 margin:0 0 0 0;	
 		 
 	}
 	
 	#rightchat {
 		  position: relative; 
-		  margin: -584px 0 0 1330px;
+		  margin: -584px 0 0 1360px;
 	}
 	
-	#player {
+	#video {
 		 position: relative;
-		 margin: -291px 0 0 175px;
+		 margin: -584px 0 0 330px;
+	}
+	
+	.info {
+		  padding: 10px 5px 10px 20px;
+		  font-family: "Time New Roman", Times, serif;
+		  	  
+	}
+	
+	h2 {
+	   font-weight: bold;
+	   color: #E58321;	   	
 	}
 	
 	
@@ -86,16 +98,19 @@
 		<!--<object type="application/x-shockwave-flash" height="378" width="620" data="//www-cdn.jtvnw.net/swflibs/TwitchPlayer.swf" bgcolor="#000000"><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="allowNetworking" value="all" /><param name="movie" value="//www-cdn.jtvnw.net/swflibs/TwitchPlayer.swf" /><param name="flashvars" value="channel=yeetz&auto_play=true&start_volume=25" /></object>-->
 		<div>
     		<div id="content">
-    			 <div id="leftchat"><iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/yeetz/chat" height="580" width="350"></iframe></div>
-    			 <div id="player"><iframe id="player" type="text/html" width="980" height="580" src="http://www.twitch.tv/yeetz/embed"  frameborder="0"></iframe></div>
-    			 <div id="rightchat"><iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/yeetz/chat" height="580" width="350"></iframe></div>
+    			 <div id="leftchat"><iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/riotgames/chat" height="580" width="300"></iframe></div>
+     			 <div id="video"><iframe id="player" type="text/html" width="1031" height="580" src="http://www.twitch.tv/riotgames/embed"  frameborder="0"></iframe></div>
+    			 <div id="rightchat"><iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/riotgames/chat" height="580" width="300"></iframe></div>
 			</div>	     			 			 
 		</div>
   
 		
 		
 		<!--<div id="content"> -->
-			 <div id="left">jotain</div>			 
+			 <div class="info">
+			 	  <h2> What is this about</h2>				  
+				  <p>The Block wars is an interactive game with two teams playing against each other through the chat windows. The players decide what blocks they will send out.</p>			 
+			 </div>			 
 			 <div id="stream">mitä</div>
 			 <div id="right">sitä</div>
 		<!--</div>-->
