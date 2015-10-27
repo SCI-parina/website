@@ -17,11 +17,6 @@ body {
 		 background-color: #83C3B8;	
 	}
 	
-	body > div {
-		 margin: 0 100px 0 100px;
-		 border: 0px solid black;
-	}
-	
 	div {
 		background-color: white;
 	}
@@ -38,20 +33,8 @@ body {
 	}
 	
 	#content {
-		width: 1680px;
-		margin: auto;
-	}
-	
-	#leftchat {
-		 display: inline;
-	}
-	
-	#rightchat {
-		display: inline;
-	}
-	
-	#video {
-		display: inline;
+		width: auto;
+		margin: 0 100px 0 100px;
 	}
 	
 	#stream {
@@ -60,8 +43,7 @@ body {
 	
 	.info {
 		  padding: 10px 5px 10px 20px;
-		  font-family: "Time New Roman", Times, serif;
-		  	  
+		  font-family: "Time New Roman", Times, serif;	  	  
 	}
 	
 	.blockicons {
@@ -91,8 +73,79 @@ body {
 	
 	h2 {
 	   font-weight: bold;
-	   color: #E58321;	   	
+	   color: #E58321;
+	   text-align: center;	   	
+	}
+
+	p {
+		text-align: center
 	}
 	
-	
+	.embed-container {
+		position: relative;
+		/*padding-bottom: 56.25%; /* not 16/9 ratio (56.25%)*/
+		height: 580px;
+		overflow: hidden;
+	}
+
+	.embed-container iframe,
+	.embed-container object,
+	.embed-container embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 580px;
+	}
+
+	#container {
+		width: 100%;
+		height: 580px;
+	}
+
+	#wrapper {
+	}
+
+	#left-chat {
+		float: left;
+		height: 580px;
+		width: 250px;
+	}
+
+	#right-chat {
+		float: right;
+		height: 580px;
+		width: 250px;
+	}
+
+	/************************************************************************************
+	MEDIA QUERIES
+	*************************************************************************************/
+	/* for 1100px or less */
+	@media screen and (max-width: 1100px) {
+		#left, #right {
+			
+		}
+		.embed-container {
+		}
+		#container {
+			
+		}
+		#wrapper {
+
+		}
+	}
+
+	@media screen and (max-width: 975px) {
+		#left, #right {
+		}
+		.embed-container {
+		}
+		#container {
+			
+		}
+		#wrapper {
+
+		}
+	}
 	
