@@ -16,6 +16,12 @@ body {
 	body {
 		 background-color: #83C3B8;	
 	}
+
+	#header {
+		border-top-left-radius: 30px;
+		border-top-right-radius: 30px;
+		background-color: #BAEEFF;
+	}
 	
 	div {
 		background-color: white;
@@ -145,6 +151,7 @@ body {
 		width:450px;		
 		margin:0 auto;
 		overflow:hidden;
+		background-color: #BAEEFF;
 	}
 	#example ul 
 	{
