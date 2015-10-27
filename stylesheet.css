@@ -43,19 +43,15 @@ body {
 	}
 	
 	#leftchat {
-		 position: relative;
-		 margin:0 0 0 0;
-		 
+		 display: inline;
 	}
 	
 	#rightchat {
-		  position: relative; 
-		  margin: -584px 0 0 1360px;
+		display: inline;
 	}
 	
 	#video {
-		 position: relative;
-		 margin: -584px 0 0 330px;
+		display: inline;
 	}
 	
 	.info {
