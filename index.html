@@ -9,6 +9,8 @@
     <title></title>
     
     <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	
 	
     <!--[if IE]>
@@ -21,24 +23,28 @@
 		</div>
 		
 		<!--<object type="application/x-shockwave-flash" height="378" width="620" data="//www-cdn.jtvnw.net/swflibs/TwitchPlayer.swf" bgcolor="#000000"><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="allowNetworking" value="all" /><param name="movie" value="//www-cdn.jtvnw.net/swflibs/TwitchPlayer.swf" /><param name="flashvars" value="channel=yeetz&auto_play=true&start_volume=25" /></object>-->
-		<div>
-    		<div id="content">
-    			 <div id="leftchat"><iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/riotgames/chat" height="580" width="300"></iframe></div>
-     			 <div id="video"><iframe id="player" type="text/html" width="1031" height="580" src="http://www.twitch.tv/riotgames/embed"  frameborder="0"></iframe></div>
-    			 <div id="rightchat"><iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/riotgames/chat" height="580" width="300"></iframe></div>
-			</div>	     			 			 
+		
+		<div class="container">
+			<div id="wrapper">
+				<iframe id="left-chat" frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/riotgames/chat"></iframe>
+				<iframe id="right-chat" frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/riotgames/chat"></iframe>
+			</div>
+			<div class="embed-container">
+				<iframe src="http://www.twitch.tv/riotgames/embed" width="1031" height="580" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen>
+				</iframe>
+			</div>
 		</div>
   
 		
 		
-		<!--<div id="content"> -->
+		<div id="content">
 			 <div class="info">
 			 	  <h2> What is this about</h2>				  
 				  <p>The Block wars is an interactive game with two teams playing against each other through the chat windows. The players decide what blocks they will send out.</p>			 
 			 </div>			 
 			 <div id="stream">mitä</div>
 			 <div id="right">sitä</div>
-		<!--</div>-->
+		</div>
 				
   
 
