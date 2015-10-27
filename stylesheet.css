@@ -1,0 +1,73 @@
+
+
+
+body {
+      color:#000000;
+      background-color:#FFFFFF;
+      background-image:url('Background Image');
+      background-repeat:no-repeat;
+    }
+	
+    a  { color:#0000FF; }
+    a:visited { color:#800080; }
+    a:hover { color:#008000; }
+    a:active { color:#FF0000; }
+	
+	body {
+		 background-color: #83C3B8;	
+	}
+	
+	body > div {
+		 margin: 0 100px 0 100px;
+		 border: 0px solid black;
+	}
+	
+	div {
+		background-color: white;
+	}
+	
+	
+	#header {
+		height: 80px;
+		padding: 0 0 10px 0;
+		font-family: "Time New Roman", Times, serif;
+		font-size: 30px;
+		font-weight: bold;
+		color: #E58321;
+		text-align: center;						
+	}
+	
+	#content {
+		width: 1680px;
+		margin: auto;
+	}
+	
+	#leftchat {
+		 position: relative;
+		 margin:0 0 0 0;
+		 
+	}
+	
+	#rightchat {
+		  position: relative; 
+		  margin: -584px 0 0 1360px;
+	}
+	
+	#video {
+		 position: relative;
+		 margin: -584px 0 0 330px;
+	}
+	
+	.info {
+		  padding: 10px 5px 10px 20px;
+		  font-family: "Time New Roman", Times, serif;
+		  	  
+	}
+	
+	h2 {
+	   font-weight: bold;
+	   color: #E58321;	   	
+	}
+	
+	
+	
