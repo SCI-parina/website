@@ -54,10 +54,39 @@ body {
 		display: inline;
 	}
 	
+	#stream {
+		clear: both;
+	}
+	
 	.info {
 		  padding: 10px 5px 10px 20px;
 		  font-family: "Time New Roman", Times, serif;
 		  	  
+	}
+	
+	.blockicons {
+		width: 1680px;
+		height: 300px;
+		margin: auto;
+	}
+
+	.blockicons > div {
+		float: left;
+		padding: 0 30px 0 30px;
+	}
+	
+	.blockicons h3{
+		
+	}
+	
+	.blockicons div div {
+		
+	}
+	
+	.blockicons  img{
+		display: inline
+		width: 100px;
+		height: 100px;		
 	}
 	
 	h2 {
