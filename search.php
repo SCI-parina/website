@@ -3,15 +3,19 @@
 		$username = "parina";
 		$password = "sciparina";
 		$dbname = "sciparina";
-
+		
+		$name = $_POST['name'];
+			
+	
 		// Create connection
 		$conn = new mysqli($servername, $username, $password, $dbname);
 		// Check connection
 		if ($conn->connect_error) {
      		die("Connection failed: " . $conn->connect_error);
 		} 
+			
 
-		$sql = "SELECT nimi, rahat, voitot, pelatut_pelit FROM kayttaja";
+		$sql = "SELECT nimi, rahat, voitot, pelatut_pelit FROM kayttaja WHERE nimi LIKE '%" .$name;
 		$result = $conn->query($sql);
 
 		if ($result->num_rows > 0) {
