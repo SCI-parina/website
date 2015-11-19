@@ -15,7 +15,7 @@
 		} 
 			
 
-		$sql = "SELECT nimi, rahat, voitot, pelatut_pelit FROM kayttaja WHERE nimi LIKE '%" .$name;
+		$sql = "SELECT nimi, rahat, voitot, pelatut_pelit FROM kayttaja WHERE nimi LIKE '%" .$name."%';";
 		$result = $conn->query($sql);
 
 		if ($result->num_rows > 0) {
