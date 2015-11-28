@@ -1,0 +1,252 @@
+
+
+
+body {
+      color:#000000;
+      background-color:#FFFFFF;
+      background-image:url('Background Image');
+      background-repeat:no-repeat;
+    }
+	
+    a  { color:#0000FF; }
+    a:visited { color:#800080; }
+    a:hover { color:#008000; }
+    a:active { color:#FF0000; }
+	
+	body {
+		 background-color: #83C3B8;	
+	}
+
+	#header {
+		border-top-left-radius: 30px;
+		border-top-right-radius: 30px;
+		background-color: #BAEEFF;
+	}
+	
+	div {
+		background-color: white;
+	}
+	
+	#content {
+		width: 100%;
+		margin: auto;
+	}
+	
+	#stream {
+		clear: both;
+	}
+	
+	.info {
+		padding: 10px 5px 10px 20px;
+		font-family: "Time New Roman", Times, serif;	
+		clear: both;
+	}
+	
+	.search {
+		padding: 10px 10px 10px 20px;
+	}
+	
+	.search > div {
+		margin: 100px 5px 100px 5px;		
+	}
+	
+	.blockicons  {
+		width: 100%;
+		text-align: center;
+	}
+	
+
+	.blockicons > div {
+		display: inline-block;
+		padding: 0 30px 0 30px;
+	}
+	
+	.blockicons  img{
+		width: 100px;
+		height: 100px;		
+	}
+	
+	h2 {
+	   font-weight: bold;
+	   color: #E58321;
+	   text-align: center;	   	
+	}
+
+	p {
+		text-align: center
+	}
+	
+	.embed-container {
+		position: relative;
+		/*padding-bottom: 56.25%; /* not 16/9 ratio (56.25%)*/
+		height: 580px;
+		overflow: hidden;
+	}
+
+	.embed-container iframe,
+	.embed-container object,
+	.embed-container embed {
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 580px;
+	}
+
+	#container {
+		width: 100%;
+		height: 580px;
+	}
+
+	#wrapper {
+	}
+
+	#left-chat {
+		float: left;
+		height: 580px;
+		width: 250px;
+	}
+
+	#right-chat {
+		float: right;
+		height: 580px;
+		width: 250px;
+	}
+
+	#input {
+		text-align: center;
+	}
+
+	/************************************************************************************
+	MEDIA QUERIES
+	*************************************************************************************/
+	/* for 1100px or less */
+	@media screen and (max-width: 1100px) {
+		#left, #right {
+			
+		}
+		.embed-container {
+		}
+		#container {
+			
+		}
+		#wrapper {
+
+		}
+	}
+
+	@media screen and (max-width: 975px) {
+		#left, #right {
+		}
+		.embed-container {
+		}
+		#container {
+			
+		}
+		#wrapper {
+
+		}
+	}
+
+
+	/* COOL HEADER */
+	#example
+	{
+		width:450px;		
+		margin:0 auto;
+		overflow:hidden;
+		background-color: #BAEEFF;
+	}
+	#example ul 
+	{
+		width: 390px;
+		margin: 0 auto;
+		height: 115px;
+		position: relative;
+		overflow: hidden;
+	}
+	#example ul li
+	{
+		list-style:none;		
+		float:left; 
+		font-size:30px; 
+		margin-top:18px; 
+		padding:10px; 
+		width:16px; 
+		margin-left:5px; 
+		color:#000;
+		box-shadow: 1px 1px 1px #888888;
+	}
+	#example ul li:nth-of-type(1)
+	{
+    	top:40px;
+    	left:10px;
+    	background: #0b7c9c;
+    	-webkit-transform: rotate(5deg);  
+    	-moz-transform: rotate(5deg);  
+	}
+	#example ul li:nth-of-type(2)
+	{
+    	top:40px;
+    	left:55px;
+    	background:#0e98c0;
+    	-webkit-transform: rotate(10deg);  
+    	-moz-transform: rotate(10deg);  
+	}
+	#example ul li:nth-of-type(3)
+	{
+    	top:40px;
+    	left:100px;
+    	background: #35bfe7;
+    	-webkit-transform: rotate(15deg);  
+    	-moz-transform: rotate(15deg);  
+	}
+	#example ul li:nth-of-type(4)
+	{
+    	top:40px;
+    	left:145px;
+    	background: #6acdea;
+    	-webkit-transform: rotate(25deg);  
+    	-moz-transform: rotate(25deg);  
+	}
+	#example ul li:nth-of-type(5)
+	{
+    	top:40px;
+    	left:190px;
+    	background: #7ee0fc;
+    	-webkit-transform: rotate(30deg);  
+    	-moz-transform: rotate(30deg);  
+	}
+	#example ul li:nth-of-type(6)
+	{
+    	top:50px;
+    	left:233px;
+    	background: #45e8fb;
+    	-webkit-transform: rotate(40deg);  
+    	-moz-transform: rotate(35deg);  
+	}
+	#example ul li:nth-of-type(7)
+	{
+    	top:55px;
+    	left:280px;
+    	background: #8cd4eb;
+    	-webkit-transform: rotate(45deg);  
+    	-moz-transform: rotate(45deg);  
+	}
+	#example ul li:nth-of-type(8)
+	{
+    	top:58px;
+    	left:330px;
+    	background: #19bae9;
+    	-webkit-transform: rotate(45deg);  
+    	-moz-transform: rotate(45deg);  
+	}
+	#example ul li:nth-of-type(9)
+	{
+    	top:58px;
+    	left:383px;
+    	background: #1fb0da;
+    	-webkit-transform: rotate(45deg);  
+    	-moz-transform: rotate(45deg);  
+	}
+	

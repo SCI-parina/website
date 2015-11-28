@@ -8,114 +8,106 @@
     <meta name="keywords" content="">
     <title></title>
     
-    <style type="text/css">
-    <!--
-    body {
-      color:#000000;
-      background-color:#FFFFFF;
-      background-image:url('Background Image');
-      background-repeat:no-repeat;
-    }
-	
-    a  { color:#0000FF; }
-    a:visited { color:#800080; }
-    a:hover { color:#008000; }
-    a:active { color:#FF0000; }
-	
-	body {
-		 background-color: #83C3B8;	
-	}
-	
-	body > div {
-		 margin: 0 100px 0 100px;
-		 border: 0px solid black;
-	}
-	
-	div {
-		background-color: white;
-	}
-	
-	
-	#header {
-		height: 80px;
-		padding: 0 0 10px 0;
-		font-family: "Time New Roman", Times, serif;
-		font-size: 30px;
-		font-weight: bold;
-		color: #E58321;
-		text-align: center;						
-	}
-	
-	#content {
-		width: 1680px;
-		margin: auto;
-	}
-	
-	#leftchat {
-		 position: relative;
-		 margin:0 0 0 0;	
-		 
-	}
-	
-	#rightchat {
-		  position: relative; 
-		  margin: -584px 0 0 1360px;
-	}
-	
-	#video {
-		 position: relative;
-		 margin: -584px 0 0 330px;
-	}
-	
-	.info {
-		  padding: 10px 5px 10px 20px;
-		  font-family: "Time New Roman", Times, serif;
-		  	  
-	}
-	
-	h2 {
-	   font-weight: bold;
-	   color: #E58321;	   	
-	}
-	
+
+    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
 	
 
-	
-	
-	
-	
-    -->
-    </style>
     <!--[if IE]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
   </head>
   <body>
-  		<div id="header">
-			 <h1>Block Wars</h1>
+  		<div>
+			<div id="example">
+				<ul>
+					<li>B</li>
+					<li>L</li>
+					<li>O</li>
+					<li>C</li>
+					<li>K</li>
+					<li>W</li>
+					<li>A</li>
+					<li>R</li>
+					<li>S</li>
+				</ul>
+			</div>
 		</div>
 		
 		<!--<object type="application/x-shockwave-flash" height="378" width="620" data="//www-cdn.jtvnw.net/swflibs/TwitchPlayer.swf" bgcolor="#000000"><param name="allowFullScreen" value="true" /><param name="allowScriptAccess" value="always" /><param name="allowNetworking" value="all" /><param name="movie" value="//www-cdn.jtvnw.net/swflibs/TwitchPlayer.swf" /><param name="flashvars" value="channel=yeetz&auto_play=true&start_volume=25" /></object>-->
-		<div>
-    		<div id="content">
-    			 <div id="leftchat"><iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/riotgames/chat" height="580" width="300"></iframe></div>
-     			 <div id="video"><iframe id="player" type="text/html" width="1031" height="580" src="http://www.twitch.tv/riotgames/embed"  frameborder="0"></iframe></div>
-    			 <div id="rightchat"><iframe frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/riotgames/chat" height="580" width="300"></iframe></div>
-			</div>	     			 			 
+		
+		<div class="container">
+			<div id="wrapper">
+				<iframe id="left-chat" frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/blockwars/chat"></iframe>
+				<iframe id="right-chat" frameborder="0" scrolling="no" id="chat_embed" src="http://www.twitch.tv/blockwars/chat"></iframe>
+			</div>
+			<div class="embed-container">
+				<iframe src="http://www.twitch.tv/blockwars/embed" width="1031" height="580" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen>
+				</iframe>
+			</div>
+
 		</div>
-  
-		
-		
-		<!--<div id="content"> -->
-			 <div class="info">
-			 	  <h2> What is this about</h2>				  
-				  <p>The Block wars is an interactive game with two teams playing against each other through the chat windows. The players decide what blocks they will send out.</p>			 
-			 </div>			 
-			 <div id="stream">mitä</div>
-			 <div id="right">sitä</div>
-		<!--</div>-->
+
 				
   
+
+		<div id="content">
+			<div class="blockicons">
+						<div><h3>block 1</h3>
+								<div><img src="blockicons/block1.jpg" /></div>
+						</div>
+						<div><h3>block 2</h3>
+								<div><img src="blockicons/block1.jpg" /></div>
+						</div>
+						<div><h3>block 3</h3>
+								<div><img src="blockicons/block1.jpg" /></div>
+						</div>
+						<div><h3>block 4</h3>
+								<div><img src="blockicons/block1.jpg" /></div>
+						</div>
+						<div><h3>block 5</h3>
+								<div><img src="blockicons/block1.jpg" /></div>
+						</div>
+						<div><h3>block 6</h3>
+								<div><img src="blockicons/block1.jpg" /></div>
+						</div>
+						<div><h3>block 7</h3>
+								<div><img src="blockicons/block1.jpg" /></div>
+						</div>
+						<div><h3>block 8</h3>
+								<div><img src="blockicons/block1.jpg" /></div>
+						</div>
+						<div><h3>block 9</h3>
+								<div><img src="blockicons/block1.jpg" /></div>
+						</div>					
+				</div>
+			<div class="info">
+			 	<h2> What is this about</h2>				  
+				<p>The Block wars is an interactive game with two teams playing against each other through the chat windows. The players decide what blocks they will send out.</p>			 
+			</div>
+
+			<div class="info">
+				<h2>Add your own block skins!</h2>				  
+				<p>You're able to modify the appearance of the blocks by posting the urls of your images here.</p>
+				<form id="input" method="post" action="send_image.php">
+  					URL of your image:<br>
+  					<input type="text" name="url">
+  					<input type="submit" name="submit" value="Submit">
+				</form>			 
+			 </div>		
+			 
+			 <div class="seach">
+				<h2> Search for user points</h2>
+				<div>
+					<form id="input" style="padding-bottom:20px" method="post" action="search.php?go"  id="searchform"> 
+					  <input  type="text" name="name"> 
+					  <input  type="submit" name="submit" value="Search"> 
+					</form>
+				</div>
+			</div>
+		</div>
+
 
   </body>
 </html>
