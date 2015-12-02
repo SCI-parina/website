@@ -21,7 +21,7 @@
 		if ($result->num_rows > 0) {
      		// output data of each row
      		while($row = $result->fetch_assoc()) {
-        		echo "<br> Name: ". $row["nimi"]. " - Money: ". $row["rahat"]. " - Winnings: " . $row["voitot"] . " - Games Played ". $row["pelatut_pelit"] . " <br>";
+        		echo "<br> Name: ". $row["nimi"]. " - Money: ". $row["rahat"]. " - Games Won: " . $row["voitot"] . " - Games Played ". $row["pelatut_pelit"] . " <br>";
      		}
 		} else {
      		echo "No results";
